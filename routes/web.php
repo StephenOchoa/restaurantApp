@@ -23,3 +23,5 @@ Route::get('/', function () {
 Route::get('/ejemplo', [PlatilloController::class, 'ejemplo']);
 
 Route::get('/platillos', [PlatilloController::class, 'consultarPlatillos']);
+
+
